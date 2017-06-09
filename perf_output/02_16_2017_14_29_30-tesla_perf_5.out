@@ -1,0 +1,118 @@
+{
+    "e2e": {
+        "testName": "sale_price item_name purchase_price ",
+        "sageRpc": {
+            "sage": 0,
+            "duration": 263000
+        },
+        "answerMetadataRpc": {
+            "callosum": {
+                "falcon": {
+                    "duration": -1,
+                    "detail": []
+                },
+                "serviceInvocTime": 184344,
+                "postgres": {
+                    "duration": 0,
+                    "count": 0,
+                    "connectionWaitTime": 0,
+                    "connectionExceptionCount": 0,
+                    "connectionAcquireFailCount": 0,
+                    "queryTimeoutCount": 0
+                },
+                "memcacheAccessDetails": {
+                    "totalTimeUs": 38152,
+                    "totalGetTimeUs": 38152,
+                    "totalSetTimeUs": 0,
+                    "numCacheHits": 9,
+                    "numCacheMisses": 0,
+                    "numGetNetworkCalls": 8,
+                    "numSetNetworkCalls": 0,
+                    "numCacheObjectsRetrieved": 9,
+                    "numObjectsAddedToCache": 0,
+                    "numFlushes": 0,
+                    "numCacheWarmerCalls": 0
+                },
+                "requestCacheAccessDetails": {
+                    "totalTimeUs": 0,
+                    "totalGetTimeUs": 0,
+                    "totalSetTimeUs": 0,
+                    "numCacheHits": 2,
+                    "numCacheMisses": 9,
+                    "numGetNetworkCalls": 0,
+                    "numSetNetworkCalls": 0,
+                    "numCacheObjectsRetrieved": 2,
+                    "numObjectsAddedToCache": 0,
+                    "numFlushes": 0,
+                    "numCacheWarmerCalls": 0
+                }
+            },
+            "duration": 211000
+        },
+        "answerDataRpc": {
+            "HEADLINE+TABLE": {
+                "callosum": {
+                    "falcon": {
+                        "duration": 18535801,
+                        "detail": [
+                            {
+                                "Sheet::262bdf7b-492f-41ae-80c7-89496032b0ae": [
+                                    {
+                                        "Viz::3227e2eb-f5ee-4468-a942-98d2c8e3e350": [
+                                            {
+                                                "TABLE": {
+                                                    "rowCount": 1000,
+                                                    "columnCount": 3,
+                                                    "queryTime": 18364000
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "serviceInvocTime": 18693678,
+                    "postgres": {
+                        "duration": 0,
+                        "count": 0,
+                        "connectionWaitTime": 0,
+                        "connectionExceptionCount": 0,
+                        "connectionAcquireFailCount": 0,
+                        "queryTimeoutCount": 0
+                    },
+                    "memcacheAccessDetails": {
+                        "totalTimeUs": 39203,
+                        "totalGetTimeUs": 39202,
+                        "totalSetTimeUs": 0,
+                        "numCacheHits": 7,
+                        "numCacheMisses": 0,
+                        "numGetNetworkCalls": 6,
+                        "numSetNetworkCalls": 0,
+                        "numCacheObjectsRetrieved": 7,
+                        "numObjectsAddedToCache": 0,
+                        "numFlushes": 0,
+                        "numCacheWarmerCalls": 0
+                    },
+                    "requestCacheAccessDetails": {
+                        "totalTimeUs": 0,
+                        "totalGetTimeUs": 0,
+                        "totalSetTimeUs": 0,
+                        "numCacheHits": 22,
+                        "numCacheMisses": 7,
+                        "numGetNetworkCalls": 0,
+                        "numSetNetworkCalls": 0,
+                        "numCacheObjectsRetrieved": 22,
+                        "numObjectsAddedToCache": 0,
+                        "numFlushes": 0,
+                        "numCacheWarmerCalls": 0
+                    }
+                },
+                "duration": 18788000
+            }
+        },
+        "answerRendering": {},
+        "pinboardRendering": {},
+        "genericMetrics": {}
+    }
+}
